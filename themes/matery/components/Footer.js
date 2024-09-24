@@ -46,12 +46,12 @@ const Footer = ({ title }) => {
         </span>
         <br />
         <h1>{title}</h1>
-        <span className='text-xs '>
-          Powered by{' '}
+        <span className='text-xs hidden'>
+         All rights of interpretation belong to{' '}
           <a
-            href='https://github.com/tangly1024/NotionNext'
+            href='https://ruilanxi.com'
             className='underline dark:text-gray-300'>
-            NotionNext {siteConfig('VERSION')}
+            瑞澜熙 {siteConfig('VERSION')}
           </a>
           .
         </span>
