@@ -33,7 +33,7 @@ export const ArticleLock = props => {
     <div id='article-wrapper' className="shadow md:hover:shadow-2xl overflow-x-auto flex-grow mx-auto w-screen md:w-full  py-10 px-5 lg:pt-24 md:px-24 min-h-screen dark:border-gray-700 bg-white dark:bg-gray-800 duration-200">
       <div className="w-full flex justify-center items-center h-96 ">
         <div className="text-center space-y-3 dark:text-gray-300 text-black">
-          <div className='font-bold'>{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
+          <div className='font-bold' style="text-wrap: wrap; width: 60%; margin: 0 auto;">{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
           <div className="flex mx-4">
             <input
               id="password" type='password'
