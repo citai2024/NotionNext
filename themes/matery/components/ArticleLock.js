@@ -30,7 +30,7 @@ export const ArticleLock = props => {
 
   return <div id='article-wrapper' className='w-full flex justify-center items-center h-96 '>
         <div className='text-center space-y-3 dark:text-gray-300 text-black'>
-            <div className='font-bold' style='margin:0 auto; width:60%; text-wrap: wrap;'>{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
+            <div className='font-bold mx-auto w-2/3'>{locale.COMMON.ARTICLE_LOCK_TIPS}</div>
             <div className='flex mx-4'>
                 <input id="password" type='password'
                     onKeyDown={(e) => {
