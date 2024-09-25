@@ -45,18 +45,8 @@ const Footer = ({ title }) => {
           <span className='px-1 busuanzi_value_site_uv'> </span>{' '}
         </span>
         <br />
-        <h1>{title}</h1>
-        <span className='text-xs hidden'>
-         All rights of interpretation belong to{' '}
-          <a
-            href='https://ruilanxi.com'
-            className='underline dark:text-gray-300'>
-            瑞澜熙 {siteConfig('VERSION')}
-          </a>
-          .
-        </span>
+        <h1 className="hidden">{title}</h1>
       </span>
-      <br />
     </footer>
   )
 }
