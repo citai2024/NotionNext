@@ -27,7 +27,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '瑞澜熙', // 您的昵称 例如 tangly1024
   BIO: process.env.NEXT_PUBLIC_BIO || '肤如瓷态，治美东方', // 作者简介
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://ruilanxi.com', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '抗衰,祛斑,美容,化妆品,瑞澜熙,瓷态,龚思蒙,养生,中医,新中医,嫩肤,日霜,晚霜,连锁店,加盟,美容院', // 网站关键词 英文逗号隔开
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || '抗衰,祛斑,美容,化妆品,瑞澜熙,瓷态,龚姿颖,龚思蒙,周赟,养生,中医,新中医,嫩肤,日霜,晚霜,连锁店,加盟,美容院', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
@@ -161,7 +161,7 @@ const BLOG = {
   FACEBOOK_PAGE_ID: process.env.NEXT_PUBLIC_FACEBOOK_PAGE_ID || '', // Facebook Page ID 來啟用 messenger 聊天功能
   FACEBOOK_APP_ID: process.env.NEXT_PUBLIC_FACEBOOK_APP_ID || '', // Facebook App ID 來啟用 messenger 聊天功能 获取: https://developers.facebook.com/
 
-  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '', // 备案号 闽ICP备XXXXXXX
+  BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '沪ICP备2023006451号-2', // 备案号 闽ICP备XXXXXXX
 
   // START********代码相关********
   // PrismJs 代码相关
