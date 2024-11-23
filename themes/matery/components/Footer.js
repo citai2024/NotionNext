@@ -30,7 +30,7 @@ const Footer = ({ title }) => {
         {siteConfig('BEI_AN') && (
           <>
             <i className='fas fa-shield-alt' />{' '}
-              <a href=" " target="_blank">沪ICP备2023006451号-2</a >&nbsp;&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=31011302008030" rel="noreferrer" target="_blank">沪公网安备31011302008030</a >
+              <a href="https://beian.miit.gov.cn/" target="_blank">沪ICP备2023006451号-2</a >&nbsp;&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=31011302008030" rel="noreferrer" target="_blank">沪公网安备31011302008030</a >
             <br />
           </>
         )}
