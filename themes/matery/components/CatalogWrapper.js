@@ -14,7 +14,7 @@ export default function CatalogWrapper({ post }) {
                 data-aos-once="true"
                 data-aos-anchor-placement="top-center"
                 className='relative h-full'>
-                <div className='float-right xl:-mr-72 xl:w-72 w-56 -mr-56 h-full mt-40'>
+                <div className='float-right xl:-mr-72 xl:w-72 w-56 -mr-56 h-full'>
                     <div className='sticky top-24'>
                         <Catalog toc={post.toc} />
                     </div>
