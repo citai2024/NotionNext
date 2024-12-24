@@ -80,7 +80,7 @@ const SocialButton = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              title={'微信在线咨询'}
+              title={'在线微信咨询'}
               href={`${siteConfig('CONTACT_EMAIL')}`}>
               <i className='transform hover:scale-125 duration-150 fa-brands fa-weixin' />
             </a>
