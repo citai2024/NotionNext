@@ -80,9 +80,9 @@ const SocialButton = () => {
             <a
               target='_blank'
               rel='noreferrer'
-              title={'email'}
-              href={`mailto:${siteConfig('CONTACT_EMAIL')}`}>
-              <i className='transform hover:scale-125 duration-150 fas fa-envelope ' />
+              title={'微信在线咨询'}
+              href={`${siteConfig('CONTACT_EMAIL')}`}>
+              <i className='transform hover:scale-125 duration-150 fa-brands fa-weixin' />
             </a>
           )}
           {JSON.parse(siteConfig('ENABLE_RSS')) && (
